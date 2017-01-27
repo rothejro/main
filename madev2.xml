@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.app2.MainActivity"
+    android:background="#000000">
+
+
+    <FrameLayout
+        android:layout_width="@dimen/sizePortrait"
+        android:layout_height="@dimen/sizePortrait"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+
+    <ImageView
+        android:layout_width="@dimen/sizeCloud"
+        android:layout_height="@dimen/sizeCloud"
+        android:src="@drawable/cloud2"
+        android:id="@+id/cloud2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="75dp"/>
+
+
+    <ImageView
+        android:layout_width="@dimen/sizeSun"
+        android:layout_height="@dimen/sizeSun"
+        android:src="@drawable/sun2"
+        android:id="@+id/sun"
+        android:layout_gravity="center"/>
+
+
+    <ImageView
+        android:layout_width="@dimen/sizeCloud"
+        android:layout_height="@dimen/sizeCloud"
+        android:src="@drawable/cloud1"
+        android:id="@+id/cloud1"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="70dp"/>
+
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#60ffffff"
+        android:textSize="@dimen/sizeFont"
+        android:text="@string/s"
+        android:layout_gravity="center"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="30dp"
+        android:rotation="70"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#60ffffff"
+        android:textSize="@dimen/sizeFont"
+        android:text="@string/u"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="30dp"
+        android:rotation="30"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#60ffffff"
+        android:textSize="@dimen/sizeFont"
+        android:text="@string/n"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="30dp"
+        android:rotation="-20"/>
+
+</FrameLayout>
+</RelativeLayout>
